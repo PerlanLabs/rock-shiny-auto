@@ -1,0 +1,5 @@
+numpy>=2.2
+soundcard>=0.4
+imageio-ffmpeg>=0.5
+interception-python>=1.13.6
+pywin32>=311

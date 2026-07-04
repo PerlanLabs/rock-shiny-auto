@@ -1,0 +1,56 @@
+{
+  "window_title_keyword": "Rock Kingdom",
+  "audio_template": "",
+  "audio_sample_rate": 48000,
+  "audio_threshold": 0.58,
+  "audio_window_seconds": 7.0,
+  "audio_check_interval_seconds": 0.2,
+  "cycle_limit": 0,
+  "resize_windows": true,
+  "target_client_size": [1280, 800],
+  "focus_titlebar_click": false,
+  "focus_client_click": false,
+  "input": {
+    "backend": "sendinput",
+    "keyboard_device": 0,
+    "mouse_device": 10
+  },
+  "randomization": {
+    "enabled": true,
+    "wait_jitter_ratio": 0.18,
+    "wait_jitter_max_seconds": 0.35,
+    "idle_actions": {
+      "enabled": true,
+      "space_chance": 0.1,
+      "space_hold": 0.06,
+      "min_wait_seconds": 0.7,
+      "labels": ["After leave click", "Between cycles"]
+    }
+  },
+  "delays": {
+    "after_focus": 0.8,
+    "after_focus_click": 0.25,
+    "before_guest_f": 1.2,
+    "guest_f_attempts": 1,
+    "guest_f_hold": 0.1,
+    "guest_f_retry_wait": 0.25,
+    "after_key": 0.18,
+    "after_open_menu": 0.8,
+    "after_request": 0.3,
+    "before_host_f": 1.2,
+    "host_f_attempts": 1,
+    "host_f_hold": 0.06,
+    "host_f_retry_wait": 0.25,
+    "after_host_f": 0.35,
+    "after_accept": 4.0,
+    "listen_after_join": 5.5,
+    "after_open_leave_menu": 0.45,
+    "after_leave_click": 2.4,
+    "between_cycles": 0.35
+  },
+  "coords": {
+    "focus_client": [0.5, 0.5],
+    "guest_request_access": [0.903, 0.943],
+    "guest_leave_world": [0.447, 0.232]
+  }
+}
